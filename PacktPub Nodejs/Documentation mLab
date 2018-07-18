@@ -1,1 +1,49 @@
-Hosting mongodb database
+Hosting mongodb database.
+
+npm init to install package.json files.
+ 
+npm install --save express // --save to attach it package.json and add dependencies.
+
+npm install -g nodemon // -g for global , nodemon monitors everytime the server restarts.
+
+npm root -g // to find out which folder all your global dependencies are being stored in.
+
+_navbar.handlebars // Undergo specifies this is a partial not a full page
+
+body-parser used to parse body of post request
+
+method-override used to make put requests.
+
+express-sessions
+
+When using express routing. Take all the files you want begining with the same route name into one file.
+Delete the first common word.
+eg
+if /ideas
+and ideas.js is the name of your folder
+/ will mean /ideas
+
+
+Express-flash is used for transferring messages between views and different routes.
+used to display error messages or success messages.
+helps in setting a global variable and populates it with the current message.
+
+bCryptjs better than bcrypt. lesser dependencies
+
+//Errors
+Cannot set headers after they are sent means , the function is redirecting to two pages. 
+Check
+// Mongoose
+Use the imported model from mongoose to findOne and find by id operations
+//Passport
+Strategies are inside the config file in root directory
+middleware
+app.use(passport.initialize());
+app.use(passport.session());
+//Done callback for local strategy
+done(for the error,return value object or false,message)
+
+// Deployment
+Go to package.json add a start script.
+usually node app.js
+,
