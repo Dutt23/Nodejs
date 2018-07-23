@@ -47,3 +47,15 @@ done(for the error,return value object or false,message)
 Go to package.json add a start script.
 usually node app.js
 ,
+
+//Method orrivde
+sudo npm install --save method-override
+making custome methods , like put , delete etc.
+Make sure over app.engine for the render
+
+// Google auth
+console.cloud.google.com
+Adn get the google api from the left button
+Enable google+ API
+On left side slick on enable credentials
+
