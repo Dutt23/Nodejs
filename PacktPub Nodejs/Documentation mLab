@@ -37,6 +37,7 @@ Check
 Use the imported model from mongoose to findOne and find by id operations
 //Passport
 Strategies are inside the config file in root directory
+pass-jwt required npm install jsonwebtoken which generates the web token 
 middleware
 app.use(passport.initialize());
 app.use(passport.session());
